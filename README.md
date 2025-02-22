@@ -1,9 +1,10 @@
 # GAReport
 Example creating a simple pdf report with DynaPDFMBS and Xojo
 
-For my projects i otfen need a list report of my data in the database. DynaPDF has lots of functions and is relativley easy to use. 
+For my projects i otfen need a list report of my data. I use DynaPDF, this has lots of functions and is relativley easy to use. 
+I created this simple module with two classes, a report class and a settings class. Maybe this is useful for someone to have a easy-to-use class for simple reports. 
 
-I created this simple module with two classes, a report class and a settings class. In the example app you can see what is needed to crate a list report:
+In the example app you can see what is needed to crate a list report:
 
     Var myGReport As GAReport.GReport = New GAReport.GReport
 
