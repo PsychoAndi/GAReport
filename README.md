@@ -13,9 +13,11 @@ For my projects i otfen need a list report of my data in the databse. DynaPDF ha
     myGReport.Settings.ReportTitle = "GA-Report Test"
     
     myGReport.MakeReport("GARTest.pdf", True, HTMLViewer1)
+    
+![image](https://github.com/user-attachments/assets/91dedf00-c790-4c53-a439-b78d6cedf8cf)
 
-The class needs a db, a corresponding string with a sql statement, strings with columntitles and widths. Optional you can determine a column where a SQLDate is found, the GetData()-routine converts this to a locale date to display. There a few more settings in the class, maybe you don't need a footer, then FT_ON can be set to false. Per default the report is saved on the desktop, change this in GReport.Init().
+You need a db, a corresponding string with a sql statement, strings with columntitles and widths. Optional you can determine a column where a SQLDate is found, the GetData()-routine converts this to a locale date to display. There a few more settings in the class, maybe you don't need a footer, then FT_ON can be set to false. Per default the report is saved on the desktop, change this in GReport.Init().
 
-The example app uses eddieselectronics.sqlite. The report is displayed in a DesktopHTMLViewer if you want, if not delete the parameter HViewer and it is displayed in the system viewer as long as ShowIt is true.
+The example app uses eddieselectronics.sqlite. The report is displayed in a DesktopHTMLViewer if you want, if not delete the parameter Viewer and it is displayed in the system viewer as long as ShowIt is true.
 
 
