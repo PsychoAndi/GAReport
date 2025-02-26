@@ -4,7 +4,7 @@ Example of creating a simple PDF report with DynaPDFMBS (Starter edition) and Xo
 For my projects i otfen need a list report of my data. I use DynaPDFMBS, this has lots of functions and is relativley easy to use. 
 I created this simple module with two classes, a report class and a settings class. Maybe this is useful for someone to have a easy-to-use class for simple reports. 
 
-In the example app you can see what is needed to crate a list report:
+In the example app you can see what is needed to create a list report:
 
     Var myGReport As GAReport.GReport = New GAReport.GReport
 
